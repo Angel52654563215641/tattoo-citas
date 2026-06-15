@@ -1,0 +1,124 @@
+body{
+
+    background:#121212;
+
+    color:white;
+
+}
+
+.encabezado{
+
+    text-align:center;
+
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+
+.leyenda{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-bottom:20px;
+
+}
+
+.estado{
+
+    padding:10px;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+}
+
+.disponible{
+
+    background:#2e7d32;
+
+}
+
+.ocupado{
+
+    background:#c62828;
+
+}
+
+.posible{
+
+    background:#f9a825;
+
+    color:black;
+
+}
+
+.descanso{
+
+    background:#424242;
+
+}
+
+.dias-semana{
+
+    display:grid;
+
+    grid-template-columns:repeat(7,1fr);
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    font-weight:bold;
+
+}
+
+.calendario{
+
+    display:grid;
+
+    grid-template-columns:repeat(7,1fr);
+
+    gap:8px;
+
+    margin-bottom:40px;
+
+}
+
+.dia{
+
+    height:60px;
+
+    border-radius:10px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+}
+
+.nota{
+
+    color:#ccc;
+
+}
+
+@media(max-width:600px){
+
+    .dia{
+
+        height:45px;
+
+        font-size:12px;
+
+    }
+
+}
